@@ -9,11 +9,11 @@ import (
 	"testing"
 )
 
-var host = "172.17.213.12"
+var host = "127.0.0.1"
 var port = 3306
-var username = "rw_eternalland"
-var password = "UYNUI868hjyyuyu"
-var database = "eternalland_collection"
+var username = "root"
+var password = "xxx"
+var database = "xxxx"
 
 func TestFindOne(t *testing.T) {
 	conn, err := newConn()
