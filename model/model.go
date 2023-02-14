@@ -2,12 +2,12 @@ package model
 
 import (
 	"bytes"
+	"fanfei93/gormctl/config"
+	"fanfei93/gormctl/model/genmysql"
+	gentemplate "fanfei93/gormctl/model/template"
+	"fanfei93/gormctl/view/genstruct"
 	"fmt"
 	"github.com/xxjwxc/public/mybigcamel"
-	"gitlab.2345.cn/gomod/gormctl/config"
-	"gitlab.2345.cn/gomod/gormctl/model/genmysql"
-	gentemplate "gitlab.2345.cn/gomod/gormctl/model/template"
-	"gitlab.2345.cn/gomod/gormctl/view/genstruct"
 	"io/ioutil"
 	"os"
 	"os/exec"

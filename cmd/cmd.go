@@ -1,11 +1,11 @@
 package cmd
 
 import (
+	"fanfei93/gormctl/config"
+	"fanfei93/gormctl/view/gtools"
 	"fmt"
 	"github.com/go-playground/validator/v10"
 	"github.com/spf13/cobra"
-	"gitlab.2345.cn/gomod/gormctl/config"
-	"gitlab.2345.cn/gomod/gormctl/view/gtools"
 	"os"
 )
 

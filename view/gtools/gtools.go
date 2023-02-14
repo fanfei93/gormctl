@@ -1,9 +1,9 @@
 package gtools
 
 import (
-	"gitlab.2345.cn/gomod/gormctl/config"
-	"gitlab.2345.cn/gomod/gormctl/model"
-	"gitlab.2345.cn/gomod/gormctl/model/genmysql"
+	"fanfei93/gormctl/config"
+	"fanfei93/gormctl/model"
+	"fanfei93/gormctl/model/genmysql"
 )
 
 func Execute(c config.Config) {

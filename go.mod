@@ -1,4 +1,4 @@
-module gitlab.2345.cn/gomod/gormctl
+module fanfei93/gormctl
 
 go 1.17
 

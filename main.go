@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gitlab.2345.cn/gomod/gormctl/cmd"
+	"fanfei93/gormctl/cmd"
 )
 
 func main() {
