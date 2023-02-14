@@ -17,8 +17,13 @@ chmod +x gormctl
 gormctl -H dbHost -U dbUsername -P password -D dbName -T "tableName" -O "modelDir"
 ```
 dbHost: 数据库host
+
 dbUsername: 用户名
+
 password: 密码
+
 dbName: 数据库名
+
 tableName: 数据表名
+
 modelDir: 生成的模型文件存放目录
